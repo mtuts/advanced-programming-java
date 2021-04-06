@@ -23,13 +23,18 @@ public class Main {
 
       EmployeePosition ep;
       switch (pos) {
-        case 1 -> ep = EmployeePosition.Salesman;
-        case 2 -> ep = EmployeePosition.Accounting;
-        case 3 -> ep = EmployeePosition.Marketing;
-        default -> {
+        case 1:
+          ep = EmployeePosition.Salesman;
+          break;
+        case 2:
+          ep = EmployeePosition.Accounting;
+          break;
+        case 3:
+          ep = EmployeePosition.Marketing;
+          break;
+        default:
           System.err.println("Wrong selection");
           continue;
-        }
       }
       Employee emp = new Employee(input);
       emp.setPosition(ep);
