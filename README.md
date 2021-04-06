@@ -1,4 +1,4 @@
-# cpit305
+# CPIT305
 
 ## IO Stream
 - [Lab 01](src/lab01)
